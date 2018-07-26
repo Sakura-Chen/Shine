@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/back"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:text="◁"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        style="?android:attr/buttonBarButtonStyle"/>
+    <Button
+        android:id="@+id/addcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:text="＋"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        style="?android:attr/buttonBarButtonStyle"/>
+    <ListView
+        android:id="@+id/cards_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:layout_below="@+id/addcity"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideOverlay" />
+</RelativeLayout>

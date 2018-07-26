@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/chengshimingcheng"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignEnd="@+id/dialogseperator1"
+        android:layout_alignParentStart="true"
+        android:text="城市名称:"
+        android:textSize="15dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/addcityname"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:layout_toEndOf="@id/chengshimingcheng"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:singleLine="true"
+        android:hint="例如:重庆"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:inputType="textPostalAddress" />
+    <View
+        android:id="@+id/dialogseperator"
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/chengshimingcheng"
+        android:background="#f4f4f4" />
+    <View
+        android:id="@+id/dialogseperator1"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/okadd"
+        android:layout_centerHorizontal="true"
+        android:background="#f4f4f4" />
+    <Button
+        android:id="@+id/okadd"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/chengshimingcheng"
+        android:layout_toStartOf="@+id/dialogseperator1"
+        android:layout_below="@+id/addcityname"
+        android:text="添加"
+        style="?android:attr/buttonBarButtonStyle"/>
+    <Button
+        android:id="@+id/canceladd"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/dialogseperator1"
+        android:layout_alignEnd="@+id/addcityname"
+        android:layout_below="@+id/addcityname"
+        android:text="取消"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#19c4ae"/>
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="s"
+        android:textColor="#ffffff"
+        android:textSize="300dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s"
+        android:layout_marginTop="40dp"
+        android:text="欢迎来到ShineWeatherApp"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"
+        android:text="version:1.0"/>
+
+</RelativeLayout>

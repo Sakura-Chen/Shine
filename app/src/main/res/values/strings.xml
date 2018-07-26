@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shine</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="refreshrate">刷新频率</string>
+    <string name="citymanagement">城市管理</string>
+    <string name="family">家庭成员</string>
+    <string name="about">关于</string>
+    <string name="title_activity_new_city_weather">NewCityWeatherActivity</string>
+</resources>

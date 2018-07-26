@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dayforecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="白天天气"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_below="@id/dayforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="气象"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/dayweatherforecast"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/standard"
+        android:layout_below="@id/dayforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="阵雨"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_below="@id/dayweatherforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="风向"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/daywinddirectionforecast"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/standard"
+        android:layout_below="@id/dayweatherforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="南风"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_below="@id/daywinddirectionforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="风力"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/daywindpowerforecast"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/standard"
+        android:layout_below="@id/daywinddirectionforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/standard"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/daywindpowerforecast"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:background="#f4f4f4"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/nightforecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_below="@+id/standard"
+        android:gravity="center"
+        android:text="夜间天气"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_below="@id/nightforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="气象"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/nightweatherforecast"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/standard"
+        android:layout_below="@id/nightforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="阵雨"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_below="@id/nightweatherforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="风向"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/nightwinddirectionforecast"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/standard"
+        android:layout_below="@id/nightweatherforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="南风"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/standard"
+        android:layout_below="@id/nightwinddirectionforecast"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="风力"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/nightwindpowerforecast"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/standard"
+        android:layout_below="@id/nightwinddirectionforecast"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="15dp" />
+
+</RelativeLayout>

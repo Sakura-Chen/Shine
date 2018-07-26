@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/greetmessage"
+        android:layout_alignEnd="@+id/greetmessage"
+        android:text="是否确认发送?"
+        android:textSize="18dp"
+        android:textColor="#ff0000"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/greetmessage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@null"
+        android:layout_below="@+id/sure"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:singleLine="false"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:textSize="15dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"/>
+    <View
+        android:id="@+id/dialogseperator21"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/send"
+        android:layout_centerHorizontal="true"
+        android:background="#f4f4f4" />
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/greetmessage"
+        android:layout_toStartOf="@+id/dialogseperator21"
+        android:layout_below="@+id/greetmessage"
+        android:text="发送"
+        style="?android:attr/buttonBarButtonStyle"/>
+    <Button
+        android:id="@+id/cancelsend"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/dialogseperator21"
+        android:layout_alignEnd="@+id/greetmessage"
+        android:layout_below="@+id/greetmessage"
+        android:text="取消"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+</RelativeLayout>
